@@ -1,0 +1,49 @@
+Hello, this will explain the syntax and logic behind the Robert Shell Version: 0.0.1
+
+
+This shell is based on the BASH, but it is written in Rust, has a few modifications, and it is very simplistic in its nature.
+
+
+Commands so far I would like to implement in the Robert Shell:
+
+cd
+
+ls
+
+grep
+
+cat
+
+** find a way to do git
+
+//////////////////////////////////////////////////////////////////////
+
+Symbols, operands, and ideas:
+
+| -> pipes output of a command into the input of the next command
+
+|| -> seperates two commands one will execute first and then the other
+
+*** IMPORTANT -> implement P E M D A S ***
+
+x + y -> returns the sum of x + y   **find way to return and handle different types of integers
+
+x - y -> returns the difference of x - y   **find way to return and handle different types of integers
+
+x * y -> returns the product of x * y   **find way to return and handle different types of integers
+
+x / y -> returns the quotient of x / y   **find way to return and handle different types of integers
+
+x**y -> returns the x raised to the power of y **find way to return and handle different types of integers
+
+x % y -> returns the x modulos y **find way to return and handle different types of integers
+
+** might be hard but try to make environmental variables
+
+ctrl + l
+
+tab autocomplete
+
+make a unique command, be creative 
+
+
